@@ -17,6 +17,7 @@ int main(void)
     
     firstSpace = chosen -1;
     
+    // Loops through each line to be printed by the user
     for (int line = 0; line < chosen; line++)
     {
         // Adds spaces in front of first hash group
@@ -32,14 +33,17 @@ int main(void)
             printf("#");
         }
         
+        // Adds the space in the middle of the hashs
         printf("  ");
         
+        // Adds the second Hashs after the space
         for (int secondhash = Hashs; secondhash > 0; secondhash--)
         {
             printf("#");  
         }
         Hashs++;
         
+        // Adds a line break to each line
         printf("\n");
     }
     
