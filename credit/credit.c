@@ -11,14 +11,14 @@ int main(void)
     {
         cardNum = get_long("What is your Credit Card number? ");
     }
-    while(cardNum < 0);
+    while (cardNum < 0);
     
     // Count length of card and add up checksum
     long count = cardNum;
     bool evenCount = false;
     int checksum = 0;
     
-    while(count > 0)
+    while (count > 0)
     {
         if (evenCount == true)
         {
@@ -47,7 +47,7 @@ int main(void)
     {
         int digits;
         
-        switch(length)
+        switch (length)
         {
             case 13:
                 digits = cardNum / 1000000000000;

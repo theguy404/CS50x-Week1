@@ -25,7 +25,7 @@ int main(void)
     // TODO: Calculate number of years until we reach threshold
     population = start;
     
-    while(population < end)
+    while (population < end)
     {
         int lost = population / 4;
         int gained = population / 3;

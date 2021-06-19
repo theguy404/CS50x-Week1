@@ -13,9 +13,9 @@ int main(void)
     {
         chosen = get_int("How many lines? (1-8): ");
     }
-    while(chosen < 1 || chosen > 8);
+    while (chosen < 1 || chosen > 8);
     
-    firstSpace = chosen -1;
+    firstSpace = chosen - 1;
     
     // Loops through each line to be printed by the user
     for (int line = 0; line < chosen; line++)
